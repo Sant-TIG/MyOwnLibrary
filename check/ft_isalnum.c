@@ -36,6 +36,7 @@
   ************
   - Non-zero value if c is a letter or a digit.
   - Zero value if not.
+  
 */
 
 int	ft_isalnum(int c)
