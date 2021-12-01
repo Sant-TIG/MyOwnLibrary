@@ -15,15 +15,15 @@
   DESCRIPCION
   ***********
   La funcion ft_intlen() cuenta la cantidad de numeros que forman el numero
-  entero n pasado como parametro, es decir, halla la longitud de n.
-  - Si n es igual a 0, devuelve 1.
-  - Si n es igual al minimo de int, devuelve 11.
-  - Si n es negativo, suma 1 a la longitud y multiplica n por -1 para poder
+  entero 'n' pasado como parametro, es decir, halla la longitud de 'n'.
+  - Si 'n' es igual a 0, devuelve 1.
+  - Si 'n' es igual al minimo de int, devuelve 11.
+  - Si 'n' es negativo, suma 1 a la longitud y multiplica 'n' por -1 para poder
     analizarlo sin el signo.
-  - Mientras n sea mayor que 0, lo divide entre 10 y suma uno a la
+  - Mientras 'n' sea mayor que 0, lo divide entre 10 y suma uno a la
     longitud.
 
-  VALOR RETORNADO
+  VALOR DEVUELTO
   ***************
   La longitud de n
 */
