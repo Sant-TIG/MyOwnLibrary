@@ -34,6 +34,7 @@
   ************
   - Non-zero value if c is an ascii printable character.
   - Zero value if not.
+  
 */
 /*
   RETURN A CONDITION
@@ -41,6 +42,7 @@
   When we return a condition, the computer will check if the condition is true or
   false. If it is true it will return 1 and if it is false it will
   return 0. This concept is known as Boolean values.
+  
 */
 
 int	ft_isprint(int c)
