@@ -34,16 +34,16 @@
   - Crea un espacio de memoria dinamico de tamaño igual a la longitud de n
     mas uno para poder almacenar el caracter nulo ('\0') al final de la cadena.
   - Si n es igual a cero o al minimo de int, simplifica el proceso devolviendo 
-	  una copia de esos numeros como cadenas en el espacio de memoria creado
-  	anteriormente utilizando la funcion ft_strcpy().
+    una copia de esos numeros como cadenas en el espacio de memoria creado
+    anteriormente utilizando la funcion ft_strcpy().
   - Si es cualquier otro numero entero, primero asigna el caracter nulo al final
-	  del espacio de memoria creado, para despues analizar el numero:
-	  - Si es negativo, asigna el caracter '-' como primer elemento de la cadena y
-	    multiplica por -1 el numero para poder analizarlo.
-	  - Mientras sea positivo, asignaremos a cada bloque de memoria del espacio
-	    de memoria reservado, en orden descendiente, el modulo de n entre diez
-		  convertido a caracter. Después, el valor de n cambia al resultado de
-	    dividirlo entre 10 hasta que n sea igual o menor que cero.
+    del espacio de memoria creado, para despues analizar el numero:
+    - Si es negativo, asigna el caracter '-' como primer elemento de la cadena y
+      multiplica por -1 el numero para poder analizarlo.
+    - Mientras sea positivo, asignaremos a cada bloque de memoria del espacio
+      de memoria reservado, en orden descendiente, el modulo de n entre diez
+      convertido a caracter. Después, el valor de n cambia al resultado de
+      dividirlo entre 10 hasta que n sea igual o menor que cero.
 
   VALOR DEVUELTO
   ***************
