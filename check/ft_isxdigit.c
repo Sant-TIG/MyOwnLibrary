@@ -6,7 +6,7 @@
 /*   By: sperez-p <sperez-p@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 13:14:21 by sperez-p          #+#    #+#             */
-/*   Updated: 2021/12/01 17:18:20 by sperez-p         ###   ########.fr       */
+/*   Updated: 2021/12/01 17:18:20 by sperez-p         ###   ########.eus      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@
   ***********
   The function ft_isxdigit() mimics the behavior of the isxdigit() function from
   ctype C library. Both functions check if c is a hexadecimal digit character
-  (0-9, a-f, A_F) or not.
+  (0-9, a-f, A-F) or not.
 
   RETURN VALUE
   ************
