@@ -6,7 +6,7 @@
 /*   By: sperez-p <sperez-p@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 13:10:34 by sperez-p           #+#    #+#             */
-/*   Updated: 2021/12/01 17:04:27 by sperez-p         ###   ########.fr       */
+/*   Updated: 2021/12/01 17:04:27 by sperez-p         ###   ########.eus      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@
   When we return a condition, the computer will check if the condition is true or
   false. If it is true it will return 1 and if it is false it will
   return 0. This concept is known as Boolean values.
+  
 */
 
 int ft_isspace(int c)
