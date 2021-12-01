@@ -6,7 +6,7 @@
 /*   By: sperez-p <sperez-p@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 13:13:48 by sperez-p          #+#    #+#             */
-/*   Updated: 2021/12/01 17:22:21 by sperez-p         ###   ########.fr       */
+/*   Updated: 2021/12/01 17:22:21 by sperez-p         ###   ########.eus      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,7 @@
 
   DESCRIPTION
   ***********
-  The function ft_isxchar() mimics the behavior of the isxchar() function from
-  ctype C library. Both functions check if c is hexadecimal character
-  (a-f, A-F) or not.
+  The function ft_isxchar() checks if c is a hexadecimal character (a-f, A-F).
 
   RETURN VALUE
   ************
