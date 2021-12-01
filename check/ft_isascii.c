@@ -13,7 +13,7 @@
 /*
   NAME
   ****
-  ft_isascii --> is a ascii character
+  ft_isascii --> is an ascii character
 
   SYNOPSIS
   ***********
@@ -28,12 +28,12 @@
   DESCRIPTION
   ***********
   The function ft_isascii() mimics the behavior of the isascii() function from
-  ctype C library. Both functions check whether c is a 7-bit unsigned char value
+  ctype C library. Both functions check if c is a 7-bit unsigned char value
   that fits into the ASCII character set.
 
   RETURN VALUE
   ************
-  - Non-zero value if c is a digit or a letter.
+  - Non-zero value if c is an ascii character.
   - Zero value if not.
 
   NOTES	
@@ -41,6 +41,7 @@
   isascii() is a BSD extension and is also an SVr4 extension.
   POSIX.1-2008 marks isascii() as obsolete, noting that it cannot be used portably
   in a localized application.
+  
 */
 /*
   RETURN A CONDITION
@@ -48,6 +49,7 @@
   When we return a condition, the computer will check if the condition is true or
   false. If it is true it will return 1 and if it is false it will
   return 0. This concept is known as Boolean values.
+  
 */
 
 int	ft_isascii(int c)
