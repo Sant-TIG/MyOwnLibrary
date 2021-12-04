@@ -29,7 +29,7 @@
   ***********
   The function ft_islower() mimics the behavior of the islower() function from
   ctype C library. Both functions check if c is a lowercase alphabetic
-  character.
+  character or not.
 
   RETURN VALUE
   ************
