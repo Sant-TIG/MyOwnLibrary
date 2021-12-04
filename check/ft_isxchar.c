@@ -27,7 +27,7 @@
 
   DESCRIPTION
   ***********
-  The function ft_isxchar() checks if c is a hexadecimal character (a-f, A-F).
+  The function ft_isxchar() checks if c is a hexadecimal character (a-f, A-F) or not.
 
   RETURN VALUE
   ************
