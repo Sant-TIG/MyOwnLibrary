@@ -30,8 +30,8 @@
   DESCRIPTION
   ***********
   The function ft_isgraph() mimics the behavior of the isgraph() function from
-  ctype C library. Both functions check if c is an ascii graphic character.
-  That is, any printable character except the space character.
+  ctype C library. Both functions check if c is an ascii graphic character or
+  not. That is, any printable character except the space character.
 
   RETURN VALUE
   ************
