@@ -29,7 +29,7 @@
   ***********
   The function ft_isupper() mimics the behavior of the isupper() function from
   ctype C library. Both functions check if c is an uppercase alphabetic
-  character.
+  character or not.
 
   RETURN VALUE
   ************
