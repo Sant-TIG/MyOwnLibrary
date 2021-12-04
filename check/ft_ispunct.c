@@ -31,7 +31,7 @@
   ***********
   The function ft_ispunct() mimics the behavior of the ispunct() function from
   ctype C library. Both functions check if c is any printable character except
-  space and alphanumeric characters.
+  space and alphanumeric characters or not.
 
   RETURN VALUE
   ************
