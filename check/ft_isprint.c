@@ -28,7 +28,8 @@
   DESCRIPTION
   ***********
   The function ft_isprint() mimics the behavior of the isprint() function from
-  ctype C library. Both functions check if c is an ascii printable character.
+  ctype C library. Both functions check if c is an ascii printable character or
+  not.
 
   RETURN VALUE
   ************
