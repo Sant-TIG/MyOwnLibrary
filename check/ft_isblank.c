@@ -28,8 +28,8 @@
   DESCRIPTION
   ***********
   The function ft_isblank() mimics the behavior of the isblank() function from
-  ctype C library. Both functions check if c is a blank character. That is, the
-  space (' ') and the tab ('\t') characters.
+  ctype C library. Both functions check if c is a blank character or not. That
+  is, the space (' ') and the tab ('\t') characters.
 
   RETURN VALUE
   ************
