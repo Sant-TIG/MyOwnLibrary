@@ -27,7 +27,7 @@
   DESCRIPTION
   ***********
   The function ft_isalpha() mimics the behavior of the isalpha() function from
-  ctype C library. Both functions check if c is an alphabetic character.
+  ctype C library. Both functions check if c is an alphabetic character or not.
 
   RETURN VALUE
   ************
