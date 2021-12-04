@@ -28,7 +28,8 @@
   DESCRIPTION
   ***********
   The function ft_iscntrl() mimics the behavior of the iscntrl() function from
-  ctype C library. Both functions check if c is an ascii control character.
+  ctype C library. Both functions check if c is an ascii control character or
+  not.
 
   RETURN VALUE
   ************
